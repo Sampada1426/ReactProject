@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+body {
+  background: linear-gradient(180deg, #FFF 10.28%, #D8EFFF 100%);
+}
+
+.App {
+  text-align: center;
+  padding: 10px;
+}
+
+.logosearchbar {
+  margin: 20px 0 50px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 30px;
+  width: 200px;
+  height: 120px;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 700px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 6px solid #006AB6;
+  background: #FFF;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.pokeball {
+  width: 35px;
+  height: 33px;
+  flex-shrink: 0;
+}
+
+#search {
+  border: none;
+  width: 581px;
+  height: 19px;
+  flex-shrink: 0;
+  color: #A9A9A9;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.searchicon {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  color: #006AB6;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the item width as needed */
+  gap: 20px; /* Adjust the gap between items as needed */
+}
+
+.pokemoncard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 210px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.10);
+  padding: 10px 5px 0;
+}
+
+.pokemonimg {
+  width: 100px;
+  height: 100px;
+}
+
+.pokemoninfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #444;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+#name {
+  width: 135px;
+  height: 20px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+}
+
+#type {
+  border-radius: 10px;
+  width: 52px;
+  height: 18px;
+  flex-shrink: 0;
+  color: #444;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 2px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 190px;
+  height: 23px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #E4E4E4;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 165.523%; /* 23.173px */
+  padding-right: 4px;
+}
+
+.info1 {
+  width: 80px;
+  height: 23px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #E4E4E4;
+  color: #444;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 165.523%; /* 23.173px */
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  border: none;
+  background: none;
+  color: #444444;
+  margin: 0 10px 0;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+button:hover{
+  color: #000;
+}
+
+#pagination {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.page {
+  width: 109px;
+  height: 19px;
+  color: #444;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
